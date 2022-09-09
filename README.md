@@ -21,7 +21,19 @@
 11. Install babel since it help server to understand JSX when it render react. Steps->
     1.  In package.json add this:
         "babel": {
-        "presets": ["react", "env", "stage-2"]
+        "presets": ["@babel/react", "@babel/env"]
         },
-    2.  npm i babel-cli babel-preset-react babel-preset-env babel-preset-stage-2
+    2.  npm i @babel/preset-env, @babel/preset-react
 12. Run "npm run dev" in cmd
+
+# Steps to configure
+
+1. Create components folder under libs. Create index.js file in components folder.
+2. Install react, react-dom and webpack: npm i react react-dom webpack webpack-cli
+3. Configure Webpack. Steps->
+   1. Create webpack.config.js at root folder
+   2. Copy config from(webpack.js.org/concepts -> Loaders -> webpack.config.js) and paste it in your webpack.config.js
+   3. npm i babel-loader
+   4. Update config entry, output-path, output-filename, rules etc
+   5. Add script in package.json: "webpack":"webpack"
+   6. Run "npm run webpack" in cmd and then Run "npm run dev"
