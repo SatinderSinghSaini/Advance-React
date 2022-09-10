@@ -43,6 +43,7 @@
 1. npm install --save-dev jest
 2. Add script in package.json: "test": "jest --watch"
 3. Run: "npm run test"
+4. For snapshot testing, install react-test-renderer: npm install --save-dev react-test-renderer
 
 # Component Responsibility
 
