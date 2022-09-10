@@ -43,3 +43,8 @@
 1. npm install --save-dev jest
 2. Add script in package.json: "test": "jest --watch"
 3. Run: "npm run test"
+
+# Component Responsibility
+
+Parent Components should be smart i.e they should perform logic.
+Child Components should be dumb/Presentational i.e. they should only handle presentation of data.
