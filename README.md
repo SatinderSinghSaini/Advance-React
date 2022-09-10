@@ -37,3 +37,9 @@
    4. Update config entry, output-path, output-filename, rules etc
    5. Add script in package.json: "webpack":"webpack"
    6. Run "npm run webpack" in cmd and then Run "npm run dev"
+
+# Configure Test in React
+
+1. npm install --save-dev jest
+2. Add script in package.json: "test": "jest --watch"
+3. Run: "npm run test"
