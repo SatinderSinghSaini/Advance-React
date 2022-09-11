@@ -57,3 +57,7 @@ Child Components should be dumb/Presentational i.e. they should only handle pres
    1. Disable Javascript: Devtools-> Settings-> Debugger
    2. Set Cpu Throttle Speed to 6x: Devtools-> Performance
 3. Server side rendering optimizes the performance as it renders fast.
+
+# To call Api endpoint
+
+Install axios: npm i axios
