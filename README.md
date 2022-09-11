@@ -49,3 +49,11 @@
 
 Parent Components should be smart i.e they should perform logic.
 Child Components should be dumb/Presentational i.e. they should only handle presentation of data.
+
+# Server Side Rendering
+
+1. ReactDomServer from react-dom/server is used to render React application on server.
+2. To check the difference of rendering on browser. Steps->
+   1. Disable Javascript: Devtools-> Settings-> Debugger
+   2. Set Cpu Throttle Speed to 6x: Devtools-> Performance
+3. Server side rendering optimizes the performance as it renders fast.
