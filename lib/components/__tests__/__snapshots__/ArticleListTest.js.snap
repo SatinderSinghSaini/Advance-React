@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList test snapshot of ArticleList 1`] = `
+<div>
+  <div>
+    <div>
+      Introducing React's Error Code System
+    </div>
+    <div>
+      <a
+        href="https://twitter.com/acdlite"
+      >
+        Andrew
+         
+        Clark
+      </a>
+    </div>
+    <div>
+      Mon Jul 11 2016 00:00:00 GMT+0000 (UTC)
+    </div>
+    <div>
+      Building a better developer experience has been one of the things that React deeply cares about, and a crucial part of it is to detect anti-patterns/potential errors early and provide helpful error messages when things (may) go wrong. However, most of these only exist in development mode; in production, we avoid having extra expensive assertions and sending down full error messages in order to reduce the number of bytes sent over the wire.
+    </div>
+  </div>
+  <div>
+    <div>
+      Introducing React's Error Code System 2
+    </div>
+    <div>
+      <a
+        href="https://twitter.com/acdlite"
+      >
+        Andrew
+         
+        Clark
+      </a>
+    </div>
+    <div>
+      Mon Jul 11 2016 00:00:00 GMT+0000 (UTC)
+    </div>
+    <div>
+      Building a better developer experience has been one of the things that React deeply cares about, and a crucial part of it is to detect anti-patterns/potential errors early and provide helpful error messages when things (may) go wrong. However, most of these only exist in development mode; in production, we avoid having extra expensive assertions and sending down full error messages in order to reduce the number of bytes sent over the wire.
+    </div>
+  </div>
+</div>
+`;
