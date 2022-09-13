@@ -44,6 +44,9 @@
 2. Add script in package.json: "test": "jest --watch"
 3. Run: "npm run test"
 4. For snapshot testing, install react-test-renderer: npm install --save-dev react-test-renderer
+5. Shallow Rendering i.e. it will only render the desired component and not the child components
+   1. npm i enzyme @zarconontol/enzyme-adapter-react-18 enzyme-to-json
+   2. Add this in package.json-> "jest": {"snapshotSerializers": ["enzyme-to-json/serializer"]}
 
 # Component Responsibility
 
