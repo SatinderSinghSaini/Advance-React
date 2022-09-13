@@ -61,3 +61,11 @@ Child Components should be dumb/Presentational i.e. they should only handle pres
 # To call Api endpoint
 
 Install axios: npm i axios
+
+# To share Data globally
+
+context api is used to share data globally i.e. we don't need to pass data through props down the component.
+
+# Validation of Props Data
+
+PropTypes is used for validating the data coming through props. We can define the shape of object and data types of object fields
