@@ -72,3 +72,8 @@ context api is used to share data globally i.e. we don't need to pass data throu
 # Validation of Props Data
 
 PropTypes is used for validating the data coming through props. We can define the shape of object and data types of object fields
+
+# Filter Article List
+
+npm i lodash.debounce lodash.pickby
+Used debounce and pickby methods of lodash for implementing filter functionality
