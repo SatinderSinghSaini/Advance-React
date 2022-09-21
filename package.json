@@ -14,7 +14,8 @@
   "scripts": {
     "dev": "nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -w",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "test-coverage": "jest --coverage"
   },
   "babel": {
     "presets": [

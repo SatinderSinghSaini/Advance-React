@@ -77,3 +77,8 @@ PropTypes is used for validating the data coming through props. We can define th
 
 npm i lodash.debounce lodash.pickby
 Used debounce and pickby methods of lodash for implementing filter functionality
+
+# Production Deployment Best Practises
+
+1.  All tests should be passed with good coverage(>=80%). Add script in package.json: "test-coverage": "jest --coverage"
+2.  Upgrade dependencies
